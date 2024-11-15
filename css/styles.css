@@ -68,8 +68,8 @@ ul {
 .nav-logo .logo-span {
     color: #2e2f42;
 }
-.nav-list .nav-list__list-item {
-    padding: 24px 0;
+.page-header .container .nav-menu .nav-list .nav-list__list-item {
+    padding: 24px 0;;
 }
 .nav-list .nav-list__list-item .link {
     font-weight: 500;
@@ -182,7 +182,7 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
-.second-section-title{
+.second-section .container .second-section-title{
  position: absolute;
     /* Sayfa akışından çıkar */
 width: 1px;
