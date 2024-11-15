@@ -182,25 +182,17 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
-.second-section .container .second-section-title{
- position: absolute;
-    /* Sayfa akışından çıkar */
-width: 1px;
-    /* Minimum genişlik */
-height: 1px;
-    /* Minimum yükseklik */
-padding: 0;
-    /* Ekstra boşlukları kaldır */
-margin: -1px;
-    /* Negatif margin ile dışarı taşır */
-overflow: hidden;
-    /* Görünümü gizler */
-clip: rect(0, 0, 0, 0);
-    /* Ekran dışında bırakır */
+.second-section .container .visually-hidden{
+     position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
     white-space: nowrap;
-    /* Satır taşmasını engeller */
     border: 0;
-    /* Kenarlıkları kaldırır */
+    
 }
 .second-section__list {
     display: flex;
